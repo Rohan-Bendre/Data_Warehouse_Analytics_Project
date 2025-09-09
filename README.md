@@ -58,18 +58,13 @@ High-level flow:
 ```
 data-warehouse-project/
 │
-├── datasets/                        # Raw CSV datasets (ERP, CRM)
-├── docs/                            # Architecture, draw.io diagrams, data catalog, naming conventions
-│   ├── etl.drawio
-│   ├── data_architecture.drawio
-│   ├── data_catalog.md
-│   ├── data_flow.drawio
-│   ├── data_models.drawio
-│   └── naming-conventions.md
+├── raw_Dataset/                        # Raw CSV datasets (ERP, CRM)
+├── Data_Structure/                            # Architecture, draw.io diagrams, data catalog, naming conventions
 ├── scripts/                         # SQL scripts for ETL and transformations
 │   ├── bronze/                       # Bronze scripts (load raw CSVs)
 │   ├── silver/                       # Silver scripts (cleaning & transform)
 │   └── gold/                         # Gold scripts (dimensions & facts)
+├── Updated_Dataset /
 ├── EDA /                              # Tests and QA scripts
 ├── Adv_EDA /                         # Tests and QA scripts
 ├── README.md
