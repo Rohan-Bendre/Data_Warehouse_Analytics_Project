@@ -70,7 +70,6 @@ data-warehouse-project/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-└── requirements.txt                  # Optional: tooling / client libraries
 ```
 
 ---
